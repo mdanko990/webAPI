@@ -7,10 +7,8 @@ const token = "eyJ0eXAiOiAiVENWMiJ9.dlZvMVFtUVRJQWkwYkQ1SmFLVVc3MEtpbnI0.Y2RmNDY
 const filePath = "../file.txt";
 var fileId;
 
-describe("WebAPI Testing", ()=>{
+describe("WebAPI", ()=>{
     
-
-
     it("Upload file test", (done)=>{
         const uploadUrl = "https://content.dropboxapi.com/2/files/upload";
         axios({
